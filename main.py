@@ -14,7 +14,7 @@ fundo_tela.pack()
 
 def bot_click():
     cidade = entrada.get()
-    api_key = '80a4ad981dc134d36cc8ddea8b67a00a'
+    api_key = '##########'
     link = f'https://api.openweathermap.org/data/2.5/weather?q={cidade}&appid={api_key}&lang=pt_br'
     requisicao = requests.get(link)
     requisicao_dic = requisicao.json()
